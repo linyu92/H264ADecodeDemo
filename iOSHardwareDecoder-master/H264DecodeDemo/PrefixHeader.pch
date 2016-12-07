@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  H264DecodeDemo
+//
+//  Created by linyu on 11/22/16.
+//  Copyright © 2016 duowan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#include <OpenGLES/ES2/gl.h>
+#include <OpenGLES/ES2/glext.h>
+#include "GLCommon.h"
+
+#endif /* PrefixHeader_pch */
