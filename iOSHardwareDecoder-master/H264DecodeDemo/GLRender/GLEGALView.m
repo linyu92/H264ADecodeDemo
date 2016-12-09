@@ -12,7 +12,7 @@
 #import <VideoToolbox/VideoToolbox.h>
 #import "H264StreamMgr.h"
 
-//三分钟内没渲染注销资源
+//三分钟内没渲染注销GLContext
 #define kStopRenderLoopSecond 180
 
 @interface GLEGALView ()

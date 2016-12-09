@@ -18,17 +18,17 @@ NSString *const kNV12FragmentShaderString = SHADER_STRING
  varying highp vec2 vTextureCoordinate;
  uniform sampler2D uInputImageTexture_y;
  uniform sampler2D uInputImageTexture_uv;
- uniform mat3 colorConversionMatrix;
  
  void main() {
-     highp vec2 yuvCoordinate = vec2(vTextureCoordinate.r,vTextureCoordinate.g/2.0);
-     
-     highp vec2 alphaCoordinate = vec2(vTextureCoordinate.r,vTextureCoordinate.g/2.0+0.5);
-     
      mediump vec3 yuv;
      lowp vec3 rgb;
-     
+     //yuv坐标点映射
+     highp vec2 yuvCoordinate = vec2(vTextureCoordinate.r,vTextureCoordinate.g/2.0);
+     //alpha坐标点映射
+     highp vec2 alphaCoordinate = vec2(vTextureCoordinate.r,vTextureCoordinate.g/2.0+0.5);
+     //取出alpha
      float a = texture2D(uInputImageTexture_y, alphaCoordinate).r;
+     //将YUV换算成RGB
      yuv.x = texture2D(uInputImageTexture_y, yuvCoordinate).r;
      yuv.yz = (texture2D(uInputImageTexture_uv, yuvCoordinate).rg - vec2(0.5, 0.5));
      rgb.r = yuv.x +                 1.402 * yuv.z;
