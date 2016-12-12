@@ -28,9 +28,10 @@ NSString *const kNV12FragmentShaderString = SHADER_STRING
      highp vec2 alphaCoordinate = vec2(vTextureCoordinate.r,vTextureCoordinate.g/2.0+0.5);
      //取出alpha
      float a = texture2D(uInputImageTexture_y, alphaCoordinate).r;
-     //将YUV换算成RGB
+     //取出yuv
      yuv.x = texture2D(uInputImageTexture_y, yuvCoordinate).r;
      yuv.yz = (texture2D(uInputImageTexture_uv, yuvCoordinate).rg - vec2(0.5, 0.5));
+     //将YUV换算成RGB
      rgb.r = yuv.x +                 1.402 * yuv.z;
      rgb.g = yuv.x - 0.344 * yuv.y - 0.714 * yuv.z;
      rgb.b = yuv.x + 1.772 * yuv.y;

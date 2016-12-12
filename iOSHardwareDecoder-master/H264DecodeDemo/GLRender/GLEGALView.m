@@ -77,7 +77,7 @@
     eaglLayer.opaque = NO;
     eaglLayer.drawableProperties = @{ kEAGLDrawablePropertyRetainedBacking  :   @(NO),
                                       kEAGLDrawablePropertyColorFormat      :   kEAGLColorFormatRGBA8 };
-    
+    eaglLayer.contentsScale = 2.0;
     [self doInitEAGLContext];
     
     _renderFrameInterval = GLRenderFrameInterval15;
