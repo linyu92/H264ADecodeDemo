@@ -39,7 +39,7 @@
                                     <action selector="on_playButton_clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T7X-yj-ljl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0c-mf-Kv0">
+                            <button hidden="YES" opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0c-mf-Kv0">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="5AW-Wk-AMb"/>
                                     <constraint firstAttribute="width" constant="46" id="Cvg-jC-lv5"/>
@@ -59,7 +59,7 @@
                                     <action selector="on_playButton_clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAM-Od-w9m"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elc-yZ-FKb">
+                            <button hidden="YES" opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elc-yZ-FKb">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bO8-X2-BEP"/>
                                     <constraint firstAttribute="width" constant="46" id="dYb-VP-FYU"/>
@@ -69,7 +69,7 @@
                                     <action selector="on_playButton_clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CGd-Wa-tSv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm1-12-dmS">
+                            <button hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm1-12-dmS">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="1nZ-hL-oiM"/>
                                     <constraint firstAttribute="height" constant="30" id="RZC-uU-TIZ"/>

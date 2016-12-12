@@ -26,9 +26,6 @@
 		738C61E61DE6D96E00A0F6AD /* test_1.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 738C61E01DE6D96E00A0F6AD /* test_1.h264 */; };
 		738C61E71DE6D96E00A0F6AD /* test_2.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 738C61E11DE6D96E00A0F6AD /* test_2.h264 */; };
 		738C61E81DE6D96E00A0F6AD /* test_3.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 738C61E21DE6D96E00A0F6AD /* test_3.h264 */; };
-		738C61E91DE6D96E00A0F6AD /* test_4.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 738C61E31DE6D96E00A0F6AD /* test_4.h264 */; };
-		738C61EA1DE6D96E00A0F6AD /* test_5.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 738C61E41DE6D96E00A0F6AD /* test_5.h264 */; };
-		738C61EB1DE6D96E00A0F6AD /* test_6.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 738C61E51DE6D96E00A0F6AD /* test_6.h264 */; };
 		738C61EE1DE6DD0600A0F6AD /* VideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 738C61ED1DE6DD0600A0F6AD /* VideoFileParser.m */; };
 		DAE85E9B1B733B2600062371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE85E9A1B733B2600062371 /* main.m */; };
 		DAE85E9E1B733B2600062371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE85E9D1B733B2600062371 /* AppDelegate.m */; };
@@ -73,9 +70,6 @@
 		738C61E01DE6D96E00A0F6AD /* test_1.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_1.h264; sourceTree = "<group>"; };
 		738C61E11DE6D96E00A0F6AD /* test_2.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_2.h264; sourceTree = "<group>"; };
 		738C61E21DE6D96E00A0F6AD /* test_3.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_3.h264; sourceTree = "<group>"; };
-		738C61E31DE6D96E00A0F6AD /* test_4.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_4.h264; sourceTree = "<group>"; };
-		738C61E41DE6D96E00A0F6AD /* test_5.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_5.h264; sourceTree = "<group>"; };
-		738C61E51DE6D96E00A0F6AD /* test_6.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_6.h264; sourceTree = "<group>"; };
 		738C61EC1DE6DD0600A0F6AD /* VideoFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFileParser.h; sourceTree = "<group>"; };
 		738C61ED1DE6DD0600A0F6AD /* VideoFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFileParser.m; sourceTree = "<group>"; };
 		DAE85E951B733B2600062371 /* H264DecodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H264DecodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,9 +157,6 @@
 				738C61E01DE6D96E00A0F6AD /* test_1.h264 */,
 				738C61E11DE6D96E00A0F6AD /* test_2.h264 */,
 				738C61E21DE6D96E00A0F6AD /* test_3.h264 */,
-				738C61E31DE6D96E00A0F6AD /* test_4.h264 */,
-				738C61E41DE6D96E00A0F6AD /* test_5.h264 */,
-				738C61E51DE6D96E00A0F6AD /* test_6.h264 */,
 				DAE85E971B733B2600062371 /* H264DecodeDemo */,
 				DAE85E961B733B2600062371 /* Products */,
 				738C61991DE3EE8C00A0F6AD /* Frameworks */,
@@ -266,14 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE85EA41B733B2600062371 /* Main.storyboard in Resources */,
-				738C61EA1DE6D96E00A0F6AD /* test_5.h264 in Resources */,
-				738C61E91DE6D96E00A0F6AD /* test_4.h264 in Resources */,
 				738C61E61DE6D96E00A0F6AD /* test_1.h264 in Resources */,
 				738C61E71DE6D96E00A0F6AD /* test_2.h264 in Resources */,
 				DAE85EA91B733B2600062371 /* LaunchScreen.xib in Resources */,
 				DAE85EA61B733B2600062371 /* Images.xcassets in Resources */,
 				738C61E81DE6D96E00A0F6AD /* test_3.h264 in Resources */,
-				738C61EB1DE6D96E00A0F6AD /* test_6.h264 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
